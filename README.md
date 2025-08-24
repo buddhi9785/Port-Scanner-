@@ -16,7 +16,7 @@ Internet/network access to the target host
 
 🚀 Usage
 1. Clone the repository:
-git clone https://github.com/yourusername/port-scanner.git
+git clone https://github.com/buddhi9785/Port-Scanner-
 cd port-scanner
 2. Run the scanner:
 python3 port_scanner.py
@@ -29,13 +29,16 @@ Scanning scanme.nmap.org from port 20 to 100...
 
 ✅ Port 22 is OPEN
 ✅ Port 80 is OPEN
+
 ⚠️ Legal Disclaimer
 This tool is intended strictly for educational purposes and authorized testing only.
 ❗ Do not use this tool to scan systems or networks that you do not own or do not have explicit permission to test. Unauthorized scanning may be considered illegal or malicious activity.
+
 📁 File Structure
 port-scanner/
 ├── port_scanner.py
 └── README.md
+
 🧠 To-Do / Future Enhancements
 Add multithreading for faster scans
 Add UDP scanning support
