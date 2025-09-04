@@ -1,46 +1,87 @@
-# Port-Scanner-
-A simple command-line Port Scanner built in Python, designed for educational and ethical security testing. This tool allows you to check for open TCP ports on a target host within a specified range.
+<h1>🔎 Port Scanner (Python)</h1>
 
+<p>
+A simple <b>command-line Port Scanner</b> built in Python, designed for 
+<b>educational and ethical security testing</b>. <br>
+This tool allows you to check for <b>open TCP ports</b> on a target host within a specified range.
+</p>
 
-Features
-🔎 Scans a range of ports on a target IP or hostname
-⚡ Fast and lightweight
-🧠 Written in pure Python (no third-party libraries)
-⏱️ Customizable timeout per port
-💻 Works on Windows, Mac, and Linux
+<hr>
 
-🛠️ Requirements
-Python 3.x
-Internet/network access to the target host
+<h2>✨ Features</h2>
+<ul>
+  <li>🔍 Scan a range of ports on a target IP or hostname</li>
+  <li>⚡ Fast and lightweight</li>
+  <li>🧠 Written in pure Python (<b>no third-party libraries</b>)</li>
+  <li>⏱️ Customizable timeout per port</li>
+  <li>💻 Cross-platform (Windows, macOS, Linux)</li>
+</ul>
 
+<hr>
 
-🚀 Usage
-1. Clone the repository:
-git clone https://github.com/buddhi9785/Port-Scanner-
-cd port-scanner
-2. Run the scanner:
+<h2>🛠️ Requirements</h2>
+<ul>
+  <li>Python <b>3.x</b></li>
+  <li>Internet/network access to the target host</li>
+</ul>
+
+<hr>
+
+<h2>🚀 Usage</h2>
+
+<p>Clone the repository:</p>
+<pre>
+git clone https://github.com/buddhi9785/Port-Scanner.git
+cd Port-Scanner
+</pre>
+
+<p>Run the scanner:</p>
+<pre>
 python3 port_scanner.py
-3. Follow the prompts:
+</pre>
+
+<p>Follow the prompts:</p>
+<pre>
 Enter target IP or hostname: scanme.nmap.org
 Enter starting port: 20
 Enter ending port: 100
-📸 Sample Output
-Scanning scanme.nmap.org from port 20 to 100...
+</pre>
 
+<p>📸 <b>Sample Output</b></p>
+<pre>
+Scanning scanme.nmap.org from port 20 to 100...
 ✅ Port 22 is OPEN
 ✅ Port 80 is OPEN
+</pre>
 
-⚠️ Legal Disclaimer
-This tool is intended strictly for educational purposes and authorized testing only.
-❗ Do not use this tool to scan systems or networks that you do not own or do not have explicit permission to test. Unauthorized scanning may be considered illegal or malicious activity.
+<hr>
 
-📁 File Structure
+<h2>⚠️ Legal Disclaimer</h2>
+<p>
+This tool is intended strictly for <b>educational purposes and authorized testing only</b>. <br>
+❗ Do <b>not</b> use this tool to scan systems or networks you do not own or have explicit permission to test. <br>
+Unauthorized scanning may be considered illegal or malicious activity.
+</p>
+
+<hr>
+
+<h2>📁 File Structure</h2>
+<pre>
 port-scanner/
 ├── port_scanner.py
 └── README.md
+</pre>
 
-🧠 To-Do / Future Enhancements
-Add multithreading for faster scans
-Add UDP scanning support
-Add service/version detection (like Nmap)
-Export results to a file
+<hr>
+
+<h2>🧠 Future Enhancements</h2>
+<ul>
+  <li>[ ] Add multithreading for faster scans</li>
+  <li>[ ] Add UDP scanning support</li>
+  <li>[ ] Add service/version detection (like Nmap)</li>
+  <li>[ ] Export results to a file</li>
+</ul>
+
+<hr>
+
+<p>⚡ Built with Python | 💻 For ethical hacking & learning</p>
