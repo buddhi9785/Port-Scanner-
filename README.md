@@ -12,7 +12,7 @@ This tool allows you to check for <b>open TCP ports</b> on a target host within 
 <ul>
   <li>🔍 Scan a range of ports on a target IP or hostname</li>
   <li>⚡ Fast and lightweight</li>
-  <li>🧠 Written in pure Python (<b>no third-party libraries</b>)</li>
+  <li>🧠 Written in Python </li>
   <li>⏱️ Customizable timeout per port</li>
   <li>💻 Cross-platform (Windows, macOS, Linux)</li>
 </ul>
